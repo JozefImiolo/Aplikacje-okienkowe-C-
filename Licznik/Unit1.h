@@ -22,6 +22,10 @@ __published:	// IDE-managed Components
         void __fastcall Timer1Timer(TObject *Sender);
         void __fastcall Button1Click(TObject *Sender);
         void __fastcall TrayIcon1Click(TObject *Sender);
+
+    
+        void __fastcall Edit1KeyDown(TObject *Sender, WORD &Key,
+          TShiftState Shift);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);

@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 295
-  Top = 342
+  Left = 400
+  Top = 360
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'Odliczanie czasu'
@@ -50,6 +50,7 @@ object Form1: TForm1
     Height = 21
     TabOrder = 0
     Text = '0'
+    OnKeyDown = Edit1KeyDown
   end
   object Button1: TButton
     Left = 392

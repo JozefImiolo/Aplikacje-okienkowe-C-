@@ -79,4 +79,19 @@ void __fastcall TForm1::TrayIcon1Click(TObject *Sender)
         Show();
         Application->BringToFront();
 }
+
 //---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::Edit1KeyDown(TObject *Sender, WORD &Key,
+      TShiftState Shift)
+{
+     if (Key == VK_RETURN)
+{
+   Timer1->Enabled=true;
+     Button1Click(Form1);
+}
+}
+//---------------------------------------------------------------------------
+
